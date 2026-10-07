@@ -2,15 +2,16 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Rigidbody rb;
+    public float force = 5f;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        rb.AddForce(Vector3.forward * force);
     }
 }
