@@ -22,4 +22,13 @@ public class BallBooster : MonoBehaviour
     {
         rb.AddForce(direction);
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+    if (collision.gameObject.CompareTag("Barrier"))
+    {
+        transform.localScale = transform.localScale * 1.5f;
+    }
+    }
+
 }
