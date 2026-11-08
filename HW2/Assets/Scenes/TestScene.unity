@@ -1534,6 +1534,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 156336989}
     m_Modifications:
+    - target: {fileID: 2000229137397843332, guid: ae787c638697da143921879cb34f77ad, type: 3}
+      propertyPath: direction.x
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 2000229137397843386, guid: ae787c638697da143921879cb34f77ad, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1727,7 +1731,7 @@ GameObject:
   - component: {fileID: 1825372178}
   m_Layer: 0
   m_Name: Brick Wall
-  m_TagString: Untagged
+  m_TagString: Barrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
